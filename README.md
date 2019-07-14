@@ -1,10 +1,10 @@
 # `iri`
 
-An interactive Ruby API reference front-end for Emacs.
+An interactive Emacs front-end for Ruby API reference.
 
 It provides an interactive way to query Ruby API docs.  Under the hood, it is essentially `comint-mode` running `ri`.
 - It is derived from `comint-mode`, so that all those familiar key strokes are inherited. (If you don't know `comint-mode`, you may know `shell-mode` which is also derived from `comint-mode`).
-- It directly calls `ri` (Ruby's built-in command-line tool for API reference) instead of dealing with the docs itself, so that compatibility is maximized in theory.
+- It directly calls `ri` (Ruby's built-in command-line tool for API reference) instead of dealing with the docs itself, so that compatibility is maximized.
 
 ## Example Usage
 
