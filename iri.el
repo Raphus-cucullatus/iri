@@ -53,7 +53,8 @@
   "Command line args when starting Ruby RI.")
 
 (define-derived-mode iri-mode comint-mode "Iri"
-  "Major mode for interacting with an inferior Ruby RI.\\<iri-mode-map>")
+  "Major mode for interacting with an inferior Ruby RI.\\<iri-mode-map>"
+  (setq comint-process-echoes t))
 
 (defun iri ()
   "Run an inferior Ruby RI, with I/O through buffer `*iri*'.
