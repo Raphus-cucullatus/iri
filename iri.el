@@ -1,4 +1,4 @@
-;;; iri.el --- An interactive Ruby RI front-end for Emacs
+;;; iri.el --- An interactive Emacs front-end for Ruby API reference
 
 ;; Copyright (C) 2019 Fan Yang
 
@@ -24,17 +24,17 @@
 
 ;;; Commentary:
 
-;; `iri' is an interactive Ruby API reference front-end for Emacs.  It
+;; `iri' is an interactive Emacs front-end for Ruby API reference.  It
 ;; provides an interactive way to query Ruby API docs. Under the hood,
-;; it is essentially comint-mode running ri.
+;; it is essentially `comint-mode' running `ri'.
 ;;
-;; It is derived from comint-mode, so that all those familiar key
-;; strokes are inherited. (If you don't know comint-mode, you may know
-;; shell-mode which is also derived from comint-mode).
+;; It is derived from `comint-mode', so that all those familiar key
+;; strokes are inherited. (If you don't know `comint-mode', you may
+;; know `shell-mode' which is also derived from `comint-mode').
 ;;
-;; It directly calls ri (Ruby's built-in command-line tool for API
+;; It directly calls `ri' (Ruby's built-in command-line tool for API
 ;; reference) instead of dealing with the docs itself, so that
-;; compatibility is maximized in theory.
+;; compatibility is maximized.
 ;;
 ;; Please see README.md from the same repository for more information.
 
