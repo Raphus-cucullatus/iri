@@ -56,6 +56,7 @@
   "Major mode for interacting with an inferior Ruby RI.\\<iri-mode-map>"
   (setq comint-process-echoes t))
 
+;;;###autoload
 (defun iri ()
   "Run an inferior Ruby RI, with I/O through buffer `*iri*'.
 
